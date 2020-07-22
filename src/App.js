@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
-import {Route,} from 'react-router-dom'
 import { Layout,Header,Navigation,Drawer,Content } from 'react-mdl/lib/Layout';
+import Main from './components/main';
+
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         </Drawer>
         <Content>
             <div className="page-content" />
+            <Main/>
         </Content>
     </Layout>
 </div>

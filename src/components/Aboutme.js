@@ -1,4 +1,4 @@
-import Rect, {Component} from 'react';
+import React, {Component} from 'react';
 
 class AboutMe extends Component {
   render(){
