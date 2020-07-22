@@ -50,7 +50,7 @@ height: 100%;
 .social-links {
   display: flex;
   justify-content: space-between;
-  width: 50%;
+  width: 20%;
   margin: auto;
 }
 
@@ -58,4 +58,8 @@ height: 100%;
   color: white;
   font-size: 5em;
   padding: 8px;
+}
+
+.projects-grid {
+  display: flex;
 }
