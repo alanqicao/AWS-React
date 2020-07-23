@@ -34,6 +34,8 @@ class LandingPage extends Component {
           </Cell>
         </Grid>
       </div>
+
+      
     )
   }
 }
